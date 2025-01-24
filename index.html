@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Style Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style id="dynamic-styles"></style>
+</head>
+<body>
+<div class="container">
+    <h1>AI Style Generator</h1>
+    <div class="demo-box" id="targetElement">
+        <p>Watch this element change based on your description!</p>
+    </div>
+    <div class="controls">
+        <textarea id="promptInput" placeholder="Describe the style you want (e.g., 'Make the box blue with rounded corners')"></textarea>
+        <button onclick="handlePrompt()">Apply Style</button>
+    </div>
+    <div id="status"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
